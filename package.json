@@ -10,7 +10,10 @@
     "client-install": "cd frontend && yarn",
     "client-start": "cd frontend && yarn start",
     "server-install": "cd backend && yarn",
-    "server-start": "cd backend && yarn serve",
-    "dev": "cd backend"
+    "server-start": "cd backend && yarn server",
+    "dev": "concurrently \"yarn server-start\" \"yarn client-start\""
+  },
+  "dependencies": {
+    "concurrently": "^4.1.0"
   }
 }
