@@ -16,7 +16,6 @@ app.listen(port, () => console.log(`Server running on port ${port}`));
 app.use("/", routes);
 
 // connect to database
-console.log(config.mongoURI);
 mongoose
   .connect(
     config.mongoURI,
