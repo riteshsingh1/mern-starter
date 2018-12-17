@@ -1,0 +1,20 @@
+{
+  "name": "skeleton",
+  "version": "1.0.0",
+  "description": "backend for aqua",
+  "main": "server.js",
+  "repository": "https://github.com/riteshsingh1/mern-starter",
+  "author": "Ritesh Singh",
+  "license": "MIT",
+  "scripts": {
+    "start": "node server.js",
+    "server": "nodemon server.js"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "dotenv": "^6.2.0",
+    "express": "^4.16.4",
+    "mongoose": "^5.4.0",
+    "nodemon": "^1.18.9"
+  }
+}

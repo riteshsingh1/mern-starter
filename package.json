@@ -1,0 +1,16 @@
+{
+  "name": "mern-starter",
+  "version": "1.0.0",
+  "description": "mern starter with basic auth boilerplate",
+  "main": "index.js",
+  "repository": "https://github.com/riteshsingh1/mern-starter",
+  "author": "Ritesh Singh",
+  "license": "MIT",
+  "scripts": {
+    "client-install": "cd frontend && yarn",
+    "client-start": "cd frontend && yarn start",
+    "server-install": "cd backend && yarn",
+    "server-start": "cd backend && yarn serve",
+    "dev": "cd backend"
+  }
+}
