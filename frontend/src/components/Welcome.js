@@ -5,3 +5,5 @@ class Welcome extends Component {
     return <div>Welcome to MERN Starter</div>;
   }
 }
+
+export default Welcome;
