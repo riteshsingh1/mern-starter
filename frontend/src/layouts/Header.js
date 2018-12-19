@@ -29,17 +29,20 @@ class Header extends Component {
   }
   render() {
     return (
-      <div>
-        <Navbar color="light" light expand="md">
-          <NavbarBrand href="/">reactstrap</NavbarBrand>
+      <div className="mb-2">
+        <Navbar color="white" className="navbar-mern" light expand="md">
+          <NavbarBrand href="/">Mern Starter</NavbarBrand>
           <NavbarToggler onClick={this.toggle} />
           <Collapse isOpen={this.state.isOpen} navbar>
             <Nav className="ml-auto" navbar>
               <NavItem>
-                <NavLink href="/components/">Components</NavLink>
+                <NavLink href="/register">Register</NavLink>
               </NavItem>
               <NavItem>
-                <NavLink href="https://github.com/reactstrap/reactstrap">
+                <NavLink href="/login">Login</NavLink>
+              </NavItem>
+              <NavItem>
+                <NavLink href="https://github.com/riteshsingh1/mern-starter">
                   GitHub
                 </NavLink>
               </NavItem>

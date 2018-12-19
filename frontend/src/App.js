@@ -4,6 +4,8 @@ import "./App.css";
 import Header from "./layouts/Header";
 import Footer from "./layouts/Footer";
 import Welcome from "./components/Welcome";
+import Register from "./components/auth/Register";
+import Login from "./components/auth/Login";
 class App extends Component {
   render() {
     return (
@@ -11,6 +13,8 @@ class App extends Component {
         <div>
           <Header />
           <Route exact path="/" component={Welcome} />
+          <Route exact path="/register" component={Register} />
+          <Route exact path="/login" component={Login} />
           <Footer />
         </div>
       </Router>
