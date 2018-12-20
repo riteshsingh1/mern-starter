@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import classnames from "classnames";
 import PropTypes from "prop-types";
 import { withRouter } from "react-router-dom";
 
@@ -117,7 +116,7 @@ class Register extends Component {
                         value={this.state.password}
                         onChange={this.onChange}
                       />
-                      <FormFeedback>{errors.email}</FormFeedback>
+                      <FormFeedback>{errors.password}</FormFeedback>
                     </Col>
                   </FormGroup>
                   <FormGroup row>
