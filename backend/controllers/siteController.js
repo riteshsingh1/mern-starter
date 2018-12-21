@@ -25,7 +25,7 @@ exports.register = (req, res) => {
       return res.status(422).json(errors);
     } else {
       const newUser = new users({
-        name: req.body.email,
+        name: req.body.name,
         email: req.body.email,
         password: req.body.password,
         token: uuidv4()

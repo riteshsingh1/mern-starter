@@ -14,6 +14,7 @@ import Register from "./components/auth/Register";
 import Login from "./components/auth/Login";
 import PrivateRoute from "./common/PrivateRoute";
 import Dashboard from "./components/Dashboard";
+const SweetAlert = require("react-bootstrap-sweetalert");
 // Check for token
 if (localStorage.jwtToken) {
   // Set auth token header auth
