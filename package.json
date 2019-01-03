@@ -11,7 +11,8 @@
     "client-start": "cd frontend && yarn start",
     "server-install": "cd backend && yarn",
     "server-start": "cd backend && yarn server",
-    "dev": "concurrently \"yarn server-start\" \"yarn client-start\""
+    "dev": "concurrently \"yarn server-start\" \"yarn client-start\",
+    "setup": "yarn client-install && yarn server-install && yarn dev"
   },
   "dependencies": {
     "concurrently": "^4.1.0"
